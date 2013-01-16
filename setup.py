@@ -5,11 +5,10 @@ import sys
 import shutil
 import subprocess
 import qtwintray
+from qtwintray import VERSION
 
 # Path to Nullsoft installer
 NSIS = "\"C:\Program Files (x86)\NSIS\makensis.exe\""
-
-VERSION = '1.0.1'
 
 exe = False
 build = False
@@ -50,7 +49,7 @@ setup(
     # The first three parameters are not required, if at least a
     # 'version' is given, then a versioninfo resource is built from
     # them and added to the executables.
-    version = "1.0.1",
+    version = VERSION,
     description = "Scribbeo Server for Windows",
     name = "ScribbeoServer",
     windows = [

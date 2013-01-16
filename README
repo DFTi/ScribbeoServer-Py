@@ -7,6 +7,6 @@ Building the installer depends on NSIS.
 In addition you need py2exe
 
 ######
-Update v1.0.1
+Update v1.2
 * Correctly write binary note archives to disk (Thanks SoS)
 

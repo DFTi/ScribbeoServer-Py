@@ -1,7 +1,5 @@
-
-
 ; The name of the installer
-Name "Scribbeo Server v1.0.1"
+Name "Scribbeo Server"
 
 ; The file to write
 OutFile "ScribbeoServerSetup.exe"
@@ -10,7 +8,7 @@ OutFile "ScribbeoServerSetup.exe"
 InstallDir $PROGRAMFILES\ScribbeoServer\
 
 ; The text to prompt the user to enter a directory
-DirText "This will install Scribbeo Server v1.0.1 on your computer."
+DirText "This will install Scribbeo Server on your computer."
 
 ;--------------------------------
 LicenseData "ScribbeoServerEULA.txt"
