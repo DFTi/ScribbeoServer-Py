@@ -1,2 +1,12 @@
 For bonjour support, install avahi-daemon and libavahi-compat-libdnssd1
 On Ubuntu, run sudo apt-get install libavahi-compat-libdnssd1
+
+On windows, to recompile and build the installer use:
+> python setup.py py2exe build
+Building the installer depends on NSIS.
+In addition you need py2exe
+
+######
+Update v1.0.1
+* Correctly write binary note archives to disk (Thanks SoS)
+
