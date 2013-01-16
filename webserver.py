@@ -94,7 +94,7 @@ class Webserver(object):
           return 'Note not found.'
       elif cherrypy.request.method == 'POST':
         archive = cherrypy.request.body.read()
-        file = open(path, 'w')
+        file = open(path, 'wb')
         file.write(archive)
         file.close()
         return 'Saved'
